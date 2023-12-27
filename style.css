@@ -63,6 +63,7 @@
     height: 40px;
     border: 1px solid white;
     border-radius: 4px;
+     flex-shrink: 0.6;
 }
 .nav-search:hover{
     border: 2px solid orange;
@@ -81,6 +82,7 @@
     background-color: white;
     font-size: 1rem;
     border: none;
+   
     
 }
 
@@ -424,7 +426,7 @@ a:hover{
         background-size: contain;
         background-repeat: no-repeat;
         margin-top: 10px;
-        width:45px;
+        width:40px;
       }
       .nav-search{
         display: flex;
@@ -439,11 +441,11 @@ a:hover{
         font-size: 0.75rem;
     }
     .add-first{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         margin-left: 0.25%;
     }
     .add-sec{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         margin-left: 0%;
     }
     #nav-dropdown{
@@ -454,20 +456,20 @@ a:hover{
         width: 30px;
     }
     .nav-coun{
-        font-size: 0.5rem;
+        font-size: 0.3rem;
     }
     
     /* box5 */
     span{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
     }
     .nav-second{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         text-align: left;
     }
     .nav-cart{
         font-weight: 700;
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         
     }
     .cart-icon{
@@ -481,23 +483,164 @@ a:hover{
     }
     .box-img img{
         width: 60px;
+        height: 60px;
         
     }
+    .box-img2 .img2{
+        height: 132px;
+    }
     .box{
-        height: 350px;
+        height: 250px;
     }
     .nav-search{
         width: 350px;
         height: 10px;
     }
     #nav-dropdown{
-        width: 33px;
-        font-size:0.6rem;
+        width: 30px;
+        font-size:0.5rem;
     }
     .panel-a{
-        font-size: 0.5rem;
+        font-size: 0.3rem;
     }
     .disclaimer{
         font-size: 0.4rem;
+    }.hero-section{
+        height:170px;
     }
+    button{
+        margin-top: 10px;
+        width: 100px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
 }
+@media (max-width:280px){
+    .box{
+        width: 105px;
+        height: 135px;
+        padding-top: 10px;
+    }
+    .box-img img{
+        width: 41px;
+        height: 26px;
+    }
+    .box-img {
+        font-size: 0.4rem;
+    }
+    .box-img h2{
+        font-size: 0.85rem;
+    }
+    .foot-panel2 a{
+        line-height: 5px;
+        font-size: 0.3rem;
+      }
+      .foot-panel2 h2{
+            font-size: 0.4rem;
+      }
+      .foot-panel2{
+        justify-content: space-evenly;
+        height: 200px;
+          
+      }
+      .scroll-box h2{
+          font-size: 0.85rem;
+      }
+      .scroll-box .images{
+        width: 100px;
+        height: 120px;
+          margin-top: 10px;
+        }
+        .scroll-box{
+            height: 150px;
+        }
+        .box-img2 .img2{
+            height: 82px;
+        }
+        .panel-shop{
+            width: 30%;
+          }
+          .panel-a a{
+            font-size: 0.5rem;
+            
+          }
+          .panel-a{
+            display:flex;
+            justify-content: space-between;
+          }
+    
+          .panel-all{
+            display: flex;
+            font-size: 0.5rem;
+          }
+          .panel-all i{
+            font-size: 0.7rem;
+    
+          }
+          .hero-section .disclaimer{
+            font-size: 0.4rem;
+          }
+          .hero-section {
+            height: 135px;
+          }
+          .nav-logo .logo{
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 10px;
+            width:30px;
+          }
+          .nav-search{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-left: 4px;
+            width: 200px;
+            height: 10px;
+        }
+        .input-search{
+            width: 100px;
+            font-size: 0.75rem;
+        }
+        .add-first{
+            font-size: 0.5rem;
+            margin-left: 0.25%;
+        }
+        .add-sec{
+            font-size: 0.5rem;
+            margin-left: 0%;
+        }
+        #nav-dropdown{
+            height:40px;
+            width:35px ;
+        }
+        .search-glass{
+            width: 30px;
+        }
+        .nav-coun{
+            font-size: 0.4rem;
+        }
+        
+        /* box5 */
+        span{
+            font-size: 0.4rem;
+        }
+        .nav-second{
+            font-size: 0.4rem;
+            text-align: left;
+        }
+        .nav-cart{
+            font-weight: 700;
+            font-size: 0.4rem;
+            
+        }
+        .cart-icon{
+            font-size: 0.6rem;
+        }
+        button{
+            width: 50px;
+            font-size: 0.4rem;
+        }
+    
+}
+
